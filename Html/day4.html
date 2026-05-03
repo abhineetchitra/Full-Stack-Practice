@@ -116,9 +116,9 @@
 
 
     <!--forms-->
-    <form></form>
+    <!-- <form></form> -->
 
-    <form action="/action.php"> </form>
+    <!-- <form action="https://www.google.com/search">  -->
 
     <hr>
     <hr>
@@ -143,6 +143,105 @@
     <input type="password" placeholder="enter password">
 
 
+    <!--label-->
+    <div>
+        <label for="usern">Username:</label>
+        <input type="text" placeholder="enter username" id="usern">
+    </div>
+
+    <div>
+        <label for="pass">Password:</label>
+        <input type="text" placeholder="write password" id="pass">
+    </div>
+
+
+    <!--button-->
+
+    <button>Submit</button>
+    <button type="submit">type1</button>
+    <button type="button">type2</button>
+    <button type="reset">reset</button>
+
+    <!--button using input-->
+    <input type="submit" value="click">
+    <input type="button" value="click">
+
+    <!--name attribute-->   
+    <!-- <input type="text" placeholder="username" name="usern"> -->
+
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+
+    <!--practice ques 8-->
+    <div>
+    <form action="https://www.google.com/search">
+    <input type="text" placeholder="search here" name="q">
+    <button type="submit">submit</button>
+    </form>
+    </div>
     
+    <!--checkbox-->
+
+    <br><br><br><br><br>
+    <div>
+        <form action="/server">
+            <input type="checkbox" id="age" name="age" checked>
+            <label for="age"> Age above 18?</label>
+        </form>
+    </div>
+    
+
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+
+    <!--radio-->
+
+    <div>
+        <input type="radio" name="fruit" id="apple" value="apple">
+        <label for="apple">apple</label>
+
+        <input type="radio" name="fruit" id="mango" value="mango">
+        <label for="mango">mango</label>
+
+        <input type="radio" name="fruit" id="banana" value="banana">
+        <label for="banana">banana</label>
+    </div>
+
+
+    <br><br><br><br><br>
+    <!--select-->
+
+    <div>
+        <select name="proffession" id="prof">
+            <label for="prof">Choose your proffession</label>
+
+            <option>Select your option</option>
+            <option value="stu">student</option>
+            <option value="dev">developer</option>
+        </select>
+    </div>
+
+
+    <!--range-->
+
+    <div>
+        <label for="vol">Volume</label>
+        <input type="range" id="vol" min="0" max="100" name="vol">
+    </div>
+    
+
+    <!--text area-->
+
+    <div>
+        <label for="fb">write ur feedback</label>
+        <textarea id="fb" rows="10" cols="100"></textarea>
+        
+    </div>
 </body>
 </html>
